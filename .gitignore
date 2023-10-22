@@ -1,0 +1,41 @@
+# Ignore Python virtual environment files
+venv/
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Django-specific files and directories
+*.log
+db.sqlite3
+media/
+static/
+
+# Ignore Node.js and npm specific files and directories
+node_modules/
+package-lock.json
+
+# Ignore compiled React code
+build/
+dist/
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE-specific files
+.idea/
+.vscode/
+
+# Ignore local settings files
+*.local_settings
+
+# Ignore backup files
+*~
